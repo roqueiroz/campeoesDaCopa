@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  CampeoesDaCopa
 //
-//  Created by Admin Colaborador on 17/09/20.
+//  Created by Rodrigo Queiroz on 17/09/20.
 //  Copyright © 2020 Rodrigo Queiroz. All rights reserved.
 //
 
