@@ -20,6 +20,15 @@ class WinnersTableViewController: UITableViewController {
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let viewCtrl = segue.destination as! WorldCupViewController
+        viewCtrl.worldCup = worldCups[tableView.indexPathForSelectedRow!.row]
+        
+        
+        
+    }
+    
     func loadWorlCups() {
         
         let fileUrl = Bundle.main.url(forResource: "winners.json", withExtension: nil)
@@ -48,11 +57,9 @@ class WinnersTableViewController: UITableViewController {
         
         let worldCup = worldCups[indexPath.row]
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "Coda \(worldCup.year) - \(worldCup.country)"
-        cell.detailTextLabel?.text = "\(worldCup.winner) vs \(worldCup.vice)"
-        cell.imageView?.image = UIImage(named: "\(worldCup.winner).png")
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! WorldCupTableViewCell
+        cell.prepare(with: worldCup)
+
         return cell
     }
     
