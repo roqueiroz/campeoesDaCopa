@@ -66,6 +66,7 @@
 		C6BA41DE2513B7C6006985F9 /* Argentina.png in Resources */ = {isa = PBXBuildFile; fileRef = C6BA41AD2513B7C6006985F9 /* Argentina.png */; };
 		C6BA41DF2513B7C6006985F9 /* Paraguai.png in Resources */ = {isa = PBXBuildFile; fileRef = C6BA41AE2513B7C6006985F9 /* Paraguai.png */; };
 		C6BA41E02513B7C6006985F9 /* Portugal.png in Resources */ = {isa = PBXBuildFile; fileRef = C6BA41AF2513B7C6006985F9 /* Portugal.png */; };
+		C6F43B30251935F1001EFF24 /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F43B2F251935F1001EFF24 /* GamesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,7 @@
 		C6BA41AD2513B7C6006985F9 /* Argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Argentina.png; sourceTree = "<group>"; };
 		C6BA41AE2513B7C6006985F9 /* Paraguai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Paraguai.png; sourceTree = "<group>"; };
 		C6BA41AF2513B7C6006985F9 /* Portugal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portugal.png; sourceTree = "<group>"; };
+		C6F43B2F251935F1001EFF24 /* GamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				C696A9CB2514137700E929E1 /* WinnersTableViewController.swift */,
 				C696A9CE2514146900E929E1 /* WorldCupViewController.swift */,
 				C602D7C425190CD700AE49E7 /* WorldCupTableViewCell.swift */,
+				C6F43B2F251935F1001EFF24 /* GamesTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				C696A9CC2514137700E929E1 /* WinnersTableViewController.swift in Sources */,
 				C6BA41692513B2F6006985F9 /* AppDelegate.swift in Sources */,
 				C696A9D12514151400E929E1 /* WorldCup.swift in Sources */,
+				C6F43B30251935F1001EFF24 /* GamesTableViewCell.swift in Sources */,
 				C602D7C525190CD700AE49E7 /* WorldCupTableViewCell.swift in Sources */,
 				C696A9CF2514146900E929E1 /* WorldCupViewController.swift in Sources */,
 				C6BA416B2513B2F6006985F9 /* SceneDelegate.swift in Sources */,
